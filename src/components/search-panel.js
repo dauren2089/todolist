@@ -1,7 +1,7 @@
 import React from "react";
 
 /* React Component */
-/* JSX type with arrow function*/
+/* JSX type with arrow function */
 const SearchPanel = () => {
     return (
         <input placeholder='search'/>

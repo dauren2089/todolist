@@ -2,12 +2,14 @@ import React from "react";
 import TodoListItem from "./todo-list-item";
 
 /* React Component */
-/* JSX type with arrow function*/
+/* JSX type with arrow function */
 const ToDoList = () => {
     return (
         <ul>
-            <li><TodoListItem /></li>
-            <li><TodoListItem /></li>
+            <li><TodoListItem label="Drink Cofee"/></li>
+            <li><TodoListItem
+                label="Build Awesome App"
+                important = {true} /></li>
         </ul>
     );
 };
